@@ -1,0 +1,7 @@
+flask
+opencv-python
+tensorflow
+scikit-learn
+pillow
+firebase-admin
+numpy
