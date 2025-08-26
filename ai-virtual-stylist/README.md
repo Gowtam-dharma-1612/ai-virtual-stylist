@@ -25,26 +25,7 @@ It includes image-processing stubs, a recommendation API, and project documentat
 - Simple REST API to get recommendations: `POST /recommend`
 - Project documentation for recruiters
 
-## Folder Structure
-```
-ai-virtual-stylist/
-├─ src/
-│  ├─ app.py                # Flask API (demo endpoint)
-│  ├─ utils/
-│  │  └─ image_processing.py
-│  └─ models/               # (place your trained models here)
-├─ data/
-│  └─ samples/              # sample images (add your own)
-├─ docs/
-│  ├─ architecture.md
-│  └─ screenshots/          # add screenshots of your UI/flow here
-├─ .github/ISSUE_TEMPLATE/  # optional
-├─ .gitignore
-├─ requirements.txt
-├─ LICENSE
-├─ ROADMAP.md
-└─ CONTRIBUTING.md
-```
+
 
 ## How to Run (Demo API)
 1. Create a virtual environment and install dependencies:
