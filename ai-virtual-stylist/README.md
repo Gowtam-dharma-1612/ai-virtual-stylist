@@ -63,16 +63,15 @@ ai-virtual-stylist/
    curl -X POST http://127.0.0.1:5000/recommend -H "Content-Type: application/json" -d "{\"image_path\": \"data/samples/user1.jpg\"}"
    ```
 
-## Example Answers for Job Forms (Telaverage)
-- **Role:** Project Lead & ML Developer
-- **Programming Language(s):** Python
-- **Frameworks/Libraries:** OpenCV, TensorFlow/Keras, Flask
-- **Database:** Firebase (optional) or CSV/JSON for prototype
-- **Data Structures:** Arrays/Lists (feature vectors), Dictionaries/HashMaps (attributes), Queues (processing pipeline)
-- **Repo Link:** *(this GitHub URL after you upload)*
 
 ## Roadmap
 See `ROADMAP.md` for a prioritized list of tasks suitable for internship/job discussions.
 
 ## License
 MIT — see `LICENSE`.
+
+## System Architecture
+![Architecture Diagram](docs/screenshots/ai_virtual_stylist_architecture.png)
+
+## Sample UI (Mockup)
+![Mockup Screenshot](docs/screenshots/ai_virtual_stylist_mockup.png)
